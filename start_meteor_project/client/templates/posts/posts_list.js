@@ -1,5 +1,6 @@
 //构建第一个helper
-var postsData = [
+//假数据
+/*var postsData = [
 	{
 		title: 'Introducing Telescope',
 		url: 'http://sachagreif.com/Introducing-telescope/'
@@ -15,4 +16,9 @@ var postsData = [
 ];
 Template.postsList.helpers({
 	posts: postsData
-})
+})*/
+Template.postsList.helpers({
+  posts: function() {
+    return Posts.find();
+  }
+});
