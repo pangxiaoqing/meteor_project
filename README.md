@@ -1,5 +1,6 @@
 # meteor_project
 meteor桌面应用案例<br>
+网址：http://wiki.jikexueyuan.com/project/discover-meteor/ <br>
 1.在 Mac OS 或 Linux 系统下，你可以打开终端窗口，输入以下命令来安装 Meteor：$ curl https://install.meteor.com | sh<br>
 2.安装好 Meteor 之后，我们来创建一个应用。创建应用要使用 Meteor 的命令行工具 meteor：<br>
   $ meteor create start_meteor_project<br>
@@ -11,3 +12,7 @@ meteor桌面应用案例<br>
   添加 Underscore 代码包。 Underscore 是一个 JavaScript 工具库，对于操纵 JavaScript 数据结构非常有用。<br>
   $ meteor add twbs:bootstrap<br>
   $ meteor add underscore<br>
+  
+5.集合
+6.发布和订阅
+7.路由
